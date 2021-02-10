@@ -1,0 +1,43 @@
+/**
+*This project is containing the following stylsheets, linked to index.html:
+*
+* 1. normalize.css........for css.reset
+* 2. base.css.............for the most basic and general rules like padding, margin
+* 3. layout.css...........for building the grid system with the main elements of the page, and setting the flexbox properties for the elements inner structure.
+* 4. components.css.......for giving specific values for the smaller components
+*/
+
+/**
+*CONTENTS
+*
+*
+*
+*/
+
+/*------------------------*\
+  #MAIN AREAS
+\*------------------------*/
+
+.navbar {
+    background-color: blanchedalmond;
+}
+
+.sidebar-left {
+    background-color: cornflowerblue;
+}
+
+.header {
+    background-color: darkcyan;
+}
+
+.main-content {
+    background-image: url(..files/harp.jpg);
+}
+
+.sidebar-right{
+    background-color: cornflowerblue;
+}
+
+.footer {
+    background-color: midnightblue;
+}

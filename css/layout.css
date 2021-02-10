@@ -1,0 +1,41 @@
+/**
+*
+*
+*
+*
+*/
+.container {
+  display: grid;
+  grid-template-columns: 15% auto 20%;
+  grid-template-rows: 5em 10em auto 5em 5em;
+  grid-template-areas: "navbar navbar navbar"
+                       "sidebar-left header header"
+                       "sidebar-left main-content sidebar-right"
+                       "sidebar-left main-content ."
+                       "footer footer footer"
+}
+
+
+.navbar {
+    grid-area: navbar;
+}
+
+.sidebar-left {
+    grid-area: side-bar-left;
+}
+
+.header {
+    grid-area: header;
+}
+
+.main-content {
+    grid-area: main-content;
+}
+
+.sidebar-right{
+    grid-area: sidebar-right;
+}
+
+.footer {
+    grid-area: footer;
+}
