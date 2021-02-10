@@ -1,10 +1,61 @@
 /**
+*  CONTENT
 *
-*
-*
-*
+*  NAVBAR-STYLES
+*  HEADER-STYLES
+*  MAIN-CONTENT-STYLES
+*  SIDEBAR-LEFT-STYLES
+*  SIDEBAR-RIGHT-STYLES
+*  FOOTER-STYLES
 */
 
 /*------------------------*\
-  #
+  #NAVBAR-STYLES
+\*------------------------*/
+.button {
+    margin: 0 2em;
+}
+
+.search {
+  
+}
+
+
+/*------------------------*\
+  #HEADER-STYLES
+\*------------------------*/
+
+
+
+
+/*------------------------*\
+  #MAIN-CONTENT-STYLES
+\*------------------------*/
+.main-content {
+    color: white;
+    font-size: 1.5em;
+}
+
+
+
+/*------------------------*\
+  #SIDEBAR-LEFT-STYLES
+\*------------------------*/
+
+.logo-image {
+    width: 10%;
+    padding: 1em;
+}
+
+
+
+/*------------------------*\
+  #SIDEBAR-RIGHT-STYLES
+\*------------------------*/
+
+
+
+
+/*------------------------*\
+  #FOOTER-STYLES
 \*------------------------*/

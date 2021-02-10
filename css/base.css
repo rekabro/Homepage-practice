@@ -18,6 +18,9 @@
   #MAIN AREAS
 \*------------------------*/
 
+.item {
+    padding: 2em 3em;
+}
 .navbar {
     background-color: blanchedalmond;
 }

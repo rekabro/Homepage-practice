@@ -13,6 +13,7 @@
 
 .container {
   display: grid;
+  width: 100vw;
   grid-template-columns: 15% auto 20%;
   grid-template-rows:    5em 10em auto 5em 5em;
   grid-template-areas:   "navbar navbar navbar"
@@ -54,3 +55,9 @@
 /*------------------------*\
   #FLEXBOXES
 \*------------------------*/
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
