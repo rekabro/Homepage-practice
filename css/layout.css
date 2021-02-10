@@ -1,18 +1,26 @@
 /**
+* CONTENT
 *
+* GRID-SYSTEM.......We give the "grid" property and template-data to the container element, and give names to the grid-areas.
 *
-*
-*
+* FLEXBOXES.........The main elements of the page are behaving as flexboxes. Like this it's easier to position the children elements.
 */
+
+/*------------------------*\
+  #GRID-SYSTEM
+\*------------------------*/
+
+
 .container {
   display: grid;
   grid-template-columns: 15% auto 20%;
-  grid-template-rows: 5em 10em auto 5em 5em;
-  grid-template-areas: "navbar navbar navbar"
-                       "sidebar-left header header"
-                       "sidebar-left main-content sidebar-right"
-                       "sidebar-left main-content ."
-                       "footer footer footer"
+  grid-template-rows:    5em 10em auto 5em 5em;
+  grid-template-areas:   "navbar navbar navbar"
+                         "sidebar-left header header"
+                         "sidebar-left main-content sidebar-right"
+                         "sidebar-left main-content ."
+                         "footer footer footer";
+ grid-gap:               0px;
 }
 
 
@@ -21,7 +29,7 @@
 }
 
 .sidebar-left {
-    grid-area: side-bar-left;
+    grid-area: sidebar-left;
 }
 
 .header {
@@ -39,3 +47,10 @@
 .footer {
     grid-area: footer;
 }
+
+
+
+
+/*------------------------*\
+  #FLEXBOXES
+\*------------------------*/
