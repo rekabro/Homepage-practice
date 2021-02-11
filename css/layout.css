@@ -13,13 +13,11 @@
 
 .container {
   display: grid;
-  width: 100vw;
   grid-template-columns: 15% auto 20%;
-  grid-template-rows:    5em 10em auto 5em 5em;
+  grid-template-rows:    5em 18em auto 6em;
   grid-template-areas:   "navbar navbar navbar"
                          "sidebar-left header header"
                          "sidebar-left main-content sidebar-right"
-                         "sidebar-left main-content ."
                          "footer footer footer";
  grid-gap:               0px;
 }
@@ -37,11 +35,12 @@
     grid-area: header;
 }
 
+
 .main-content {
     grid-area: main-content;
 }
 
-.sidebar-right{
+.sidebar-right {
     grid-area: sidebar-right;
 }
 
@@ -57,7 +56,28 @@
 \*------------------------*/
 
 .navbar {
-    display: flex;
+    display:         flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items:     center;
+}
+
+.sidebar-left {
+    display:        flex;
+    flex-direction: column;
+}
+
+.header {
+    display:        flex;
+    flex-direction: column;
+}
+
+.sidebar-right {
+    display:        flex;
+    flex-direction: column;
+}
+
+.footer {
+        display:         flex;
+        flex-direction:  row;
+        justify-content: center;
 }

@@ -18,11 +18,20 @@
   #MAIN AREAS
 \*------------------------*/
 
+.container {
+    width: 102vw;
+    margin-left: -1.1em;
+}
+
+
 .item {
     padding: 2em 3em;
 }
+
+
 .navbar {
     background-color: blanchedalmond;
+    padding-bottom: 3em;
 }
 
 .sidebar-left {
@@ -34,7 +43,10 @@
 }
 
 .main-content {
-    background-image: url(/files/harp.jpg);
+    background-image:    url(/files/harp.jpg);
+    background-repeat:   no-repeat;
+    background-size:     cover;
+    background-position: center;
 }
 
 .sidebar-right{

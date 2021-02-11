@@ -12,7 +12,7 @@
 /*------------------------*\
   #NAVBAR-STYLES
 \*------------------------*/
-.button {
+.btn {
     margin: 0 2em;
 }
 
@@ -24,8 +24,13 @@
 /*------------------------*\
   #HEADER-STYLES
 \*------------------------*/
+.header {
+  padding-bottom: 2em;
+}
 
-
+.header div {
+  text-align: center;
+}
 
 
 /*------------------------*\
@@ -37,15 +42,10 @@
 }
 
 
-
 /*------------------------*\
   #SIDEBAR-LEFT-STYLES
 \*------------------------*/
 
-.logo-image {
-    width: 10%;
-    padding: 1em;
-}
 
 
 
@@ -53,7 +53,13 @@
   #SIDEBAR-RIGHT-STYLES
 \*------------------------*/
 
+.sidebar-right img {
+  width: 80%;
+}
 
+.img-wrapper {
+  margin-bottom: 2em;
+}
 
 
 /*------------------------*\
