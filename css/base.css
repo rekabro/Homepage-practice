@@ -21,6 +21,7 @@
 .container {
     width: 102vw;
     margin-left: -1.1em;
+    font-family: 'EB Garamond', serif;
 }
 
 
@@ -30,16 +31,16 @@
 
 
 .navbar {
-    background-color: blanchedalmond;
     padding-bottom: 3em;
 }
 
 .sidebar-left {
-    background-color: cornflowerblue;
+    background-color: #3f87a6;
 }
 
 .header {
-    background-color: darkcyan;
+    background-color: #ebf8e1;
+    font-family: 'Dancing Script', cursive;
 }
 
 .main-content {
@@ -50,7 +51,7 @@
 }
 
 .sidebar-right{
-    background-color: cornflowerblue;
+    background-color: #f69d3c;
 }
 
 .footer {
