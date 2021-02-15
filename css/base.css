@@ -20,7 +20,10 @@
   #VARIABLES
 \*------------------------*/
 
-
+:root {
+    --bgcolor1: #3f87a6;
+    --bgcolor2: #f69d3c;
+}
 
 
 
@@ -48,11 +51,12 @@
 }
 
 .sidebar-left {
-    background-color: #3f87a6;
+    background-color: var(--bgcolor1);
 }
 
 .header {
-    background-color: #ebf8e1;
+    background-color: var(--bgcolor1);
+    background-image: url("https://www.transparenttextures.com/patterns/flowers.png");
 }
 
 .main-content {
@@ -60,10 +64,11 @@
     background-repeat:   no-repeat;
     background-size:     cover;
     background-position: center;
+    filter: brightness(0.4);
 }
 
 .sidebar-right{
-    background-color: #f69d3c;
+    background-color: var(--bgcolor2);
 }
 
 .footer {

@@ -9,6 +9,8 @@
 *  FOOTER-STYLES
 */
 
+
+
 /*------------------------*\
   #NAVBAR-STYLES
 \*------------------------*/
@@ -47,10 +49,21 @@
 \*------------------------*/
 
 .main-content {
-    color:     white;
-    font-size: 1.5em;
+    color:       white;
+    font-size:   1.5em;
+    line-height: 1.7em;
+    text-indent: 2em;
 }
 
+  .main-content p {
+    margin-bottom: 1.5em;
+  }
+
+  .main-content h3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.4em;
+    margin-bottom: 1.2em;
+  }
 
 
 
