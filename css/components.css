@@ -17,33 +17,42 @@
   background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
 }
 
-.btn {
-    margin: 0 2em;
-}
+  .btn { /* These rules are setting the buttons in the footer as well*/
+      margin: 0 2em;
+  }
 
-  
-}
+
+
 
 
 /*------------------------*\
   #HEADER-STYLES
 \*------------------------*/
+
 .header {
   padding-bottom: 2em;
+  font-family: 'Dancing Script', cursive;
 }
 
-.header div {
-  text-align: center;
-}
+  .header div {
+    text-align: center;
+  }
+
+
+
 
 
 /*------------------------*\
   #MAIN-CONTENT-STYLES
 \*------------------------*/
+
 .main-content {
-    color: white;
+    color:     white;
     font-size: 1.5em;
 }
+
+
+
 
 
 /*------------------------*\
@@ -51,8 +60,37 @@
 \*------------------------*/
 
 .sidebar-left img {
-  margin: 2em auto;
+  margin:     2.3em auto;
+  transition: all .8s ease-out .2s;
 }
+
+  .sidebar-left img:hover {
+    transform:  rotate(-360deg) scale(1.5);
+  }
+
+
+.sidebar-left h3 {
+  font-family:     'Dancing Script', cursive;
+  font-size:       1.8em;
+  backdrop-filter: brightness(1.4);
+  background:      radial-gradient(white, #3f87a6);
+  padding:         .5em;
+  margin-top:      1.3em;
+}
+
+
+.sidebar-left ul {
+  list-style:  none;
+  font-size:   1.2em;
+  font-weight: bold;
+  line-height: 1.7em;
+}
+
+  .sidebar-left a {
+    color: whitesmoke;
+  }
+
+
 
 
 
@@ -61,19 +99,22 @@
 \*------------------------*/
 
 .sidebar-right .image-wrapper {
-  width: 80%;
-  height: auto;
-  margin: 1em;
+  width:      80%;
+  height:     auto;
+  margin:     1em;
   align-self: center;
-  filter: grayscale(80%);
+  filter:     grayscale(80%);
   transition: all .5s ease-in .2s;
 }
 
 .sidebar-right .image-wrapper:hover {
-  transform: scale(1.1);
+  transform:  scale(1.1);
   box-shadow: 3px 3px 8px black;
-  filter: grayscale(0);
+  filter:     grayscale(0);
 }
+
+
+
 
 
 /*------------------------*\
@@ -81,16 +122,17 @@
 \*------------------------*/
 
 .footer {
-  color: #ebf8e1;
+  color:      #ebf8e1;
   text-align: center;
 }
 
-.footer p {
-  margin-bottom: 1.3em;
-  font-style: italic;
-}
+  .footer p {
+    margin-bottom: 1.3em;
+    font-style:    italic;
+    font-size:     1.2em;
+  }
 
-.footer a {
-  color: black;
-  font-weight: bold;
-}
+  .footer a {
+    color:       black;
+    font-weight: bold;
+  }

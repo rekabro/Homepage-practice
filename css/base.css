@@ -1,5 +1,5 @@
 /**
-*This project is containing the following stylsheets, linked to index.html:
+* This project is containing the following stylesheets, linked to index.html:
 *
 * 1. normalize.css........for css.reset
 * 2. base.css.............for the most basic and general rules like padding, margin
@@ -8,18 +8,31 @@
 */
 
 /**
-*CONTENTS
+* CONTENTS
 *
+* VARIABLES
 *
+* MAIN AREAS
 *
 */
+
+/*------------------------*\
+  #VARIABLES
+\*------------------------*/
+
+
+
+
+
+
+
 
 /*------------------------*\
   #MAIN AREAS
 \*------------------------*/
 
 .container {
-    width: 102vw;
+    width:       102vw;
     margin-left: -1.1em;
     font-family: 'EB Garamond', serif;
 }
@@ -40,7 +53,6 @@
 
 .header {
     background-color: #ebf8e1;
-    font-family: 'Dancing Script', cursive;
 }
 
 .main-content {

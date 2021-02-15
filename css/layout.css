@@ -35,7 +35,6 @@
     grid-area: header;
 }
 
-
 .main-content {
     grid-area: main-content;
 }
@@ -72,8 +71,8 @@
 }
 
 .sidebar-right {
-    display:        flex;
-    flex-direction: column;
+    display:         flex;
+    flex-direction:  column;
     justify-content: space-between;
 }
 
