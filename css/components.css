@@ -7,6 +7,7 @@
 *  SIDEBAR-LEFT-STYLES
 *  SIDEBAR-RIGHT-STYLES
 *  FOOTER-STYLES
+*  KEYFRAMES
 */
 
 
@@ -16,7 +17,7 @@
 \*------------------------*/
 
 .navbar {
-  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  background: linear-gradient(0.25turn, var(--bgcolor1), var(--fontcolor), var(--bgcolor2));
 }
 
   .btn { /* These rules are setting the buttons in the footer as well*/
@@ -43,16 +44,16 @@
 
 
 
-
 /*------------------------*\
   #MAIN-CONTENT-STYLES
 \*------------------------*/
 
 .main-content {
-    color:       white;
+    color:       var(--fontcolor);
     font-size:   1.5em;
     line-height: 1.7em;
     text-indent: 2em;
+    overflow: auto;
 }
 
   .main-content p {
@@ -86,7 +87,7 @@
   font-family:     'Dancing Script', cursive;
   font-size:       1.8em;
   backdrop-filter: brightness(1.4);
-  background:      radial-gradient(white, #3f87a6);
+  background:      radial-gradient(var(--fontcolor), var(--bgcolor1));
   padding:         .5em;
   margin-top:      1.3em;
 }
@@ -100,7 +101,7 @@
 }
 
   .sidebar-left a {
-    color: whitesmoke;
+    color: var(--fontcolor);
   }
 
 
@@ -135,7 +136,7 @@
 \*------------------------*/
 
 .footer {
-  color:      #ebf8e1;
+  color:      var(--fontcolor);
   text-align: center;
 }
 
@@ -149,3 +150,30 @@
     color:       black;
     font-weight: bold;
   }
+
+
+
+
+
+  /*------------------------*\
+  #KEYFRAMES
+  \*------------------------*/
+
+@keyframes moveangel {
+  0% {margin-top:15em; background: var(--bgcolor1);}
+  25% {margin-top:20em; margin-right: 2em; background: var(--fontcolor);}
+  50% {margin-top:24em; margin-right: 4em; background: var(--fontcolor);}
+  75% {margin-top:27em; margin-right: 2em; background: var(--fontcolor);}
+  100% {margin-top:30em; background: var(--bgcolor2);}
+}
+
+.moving-angel {
+  width: 8em;
+  animation: moveangel 4s linear infinite alternate;
+}
+
+.angel-wrapper {
+  margin-right: 22em;
+  position: relative;
+
+}
