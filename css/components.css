@@ -30,7 +30,7 @@
 
 .header {
   padding-bottom: 2em;
-  font-family: 'Dancing Script', cursive;
+  font-family:    'Dancing Script', cursive;
 }
 
   .header div {
@@ -58,8 +58,8 @@
   }
 
   .main-content h3 {
-    font-family: 'Dancing Script', cursive;
-    font-size: 1.4em;
+    font-family:   'Dancing Script', cursive;
+    font-size:     1.4em;
     margin-bottom: 1.2em;
   }
 
@@ -170,6 +170,6 @@
 
 .angel-wrapper {
   margin-right: 22em;
-  position: relative;
+  position:     relative;
 
 }
