@@ -16,10 +16,6 @@
   #NAVBAR-STYLES
 \*------------------------*/
 
-.navbar {
-  background: linear-gradient(0.25turn, var(--bgcolor1), var(--fontcolor), var(--bgcolor2));
-}
-
   .btn { /* These rules are setting the buttons in the footer as well*/
       margin: 0 2em;
   }
@@ -49,11 +45,12 @@
 \*------------------------*/
 
 .main-content {
-    color:       var(--fontcolor);
+    color:       var(--bgcolor2);
     font-size:   1.5em;
     line-height: 1.7em;
     text-indent: 2em;
-    overflow: auto;
+    font-weight: bold;
+    filter:      brightness(0.6);
 }
 
   .main-content p {
@@ -130,13 +127,12 @@
 
 
 
-
 /*------------------------*\
   #FOOTER-STYLES
 \*------------------------*/
 
 .footer {
-  color:      var(--fontcolor);
+  color:      black;
   text-align: center;
 }
 
